@@ -1,0 +1,33 @@
+{
+  "name": "@hyperlink/pushover",
+  "version": "1.0.0",
+  "description": "Pushover.net client written in TypeScript",
+  "main": "./dist/Pushover.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "types": "./dist/Pushover.d.ts",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "keywords": [
+    "Pushover"
+  ],
+  "author": "Xiaoxin Lu <javascript@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "got": "^11.8.2"
+  },
+  "devDependencies": {
+    "@sindresorhus/tsconfig": "^1.0.2",
+    "@types/node": "^14.17.9",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  }
+}
